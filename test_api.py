@@ -30,7 +30,7 @@ def random_strings(length):
     return payload
     
 headers={
-            "Authorization" : "Bearer 093e633710efc96455f4d5c3e6a8469992a1a571030b8dd6541ef19a0b10be9a"
+            "Authorization" : 
         }
 def test_create_new_user(user_api_request_context: APIRequestContext, user_ids) -> None:
     payload = random_strings(8)
